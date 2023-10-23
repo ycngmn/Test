@@ -29,7 +29,7 @@ def webhook():
 
 if __name__ == '__main__':
     # Set the webhook
-    webhook_url = 'YOUR_WEBHOOK_URL'
+    webhook_url = 'https://airxo.onrender.com'
     updater.bot.setWebhook(webhook_url)
     # Start the Flask web server
     app.run(port=5000)
