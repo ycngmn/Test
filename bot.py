@@ -13,8 +13,8 @@ import telebot
 
 API_TOKEN = '6399873051:AAHnJF3b3uaLeBgRqKKRcjPI1VB0Q_zIp80'
 
-WEBHOOK_HOST = 'https://airxo.onrender.com'
-WEBHOOK_PORT = 8443  # 443, 80, 88 or 8443 (port need to be 'open')
+WEBHOOK_HOST = 'https://airox-h0s4q7ss.b4a.run/'
+WEBHOOK_PORT = 443  # 443, 80, 88 or 8443 (port need to be 'open')
 WEBHOOK_LISTEN = '0.0.0.0'  # In some VPS you may need to put here the IP addr
 
 WEBHOOK_SSL_CERT = './webhook_cert.pem'  # Path to the ssl certificate
